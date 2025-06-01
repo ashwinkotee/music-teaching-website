@@ -2,9 +2,9 @@ import React from 'react';
 
 const InfoSection = () => {
   return (
-    <section className="p-8 md:p-16 flex flex-col md:flex-row items-center justify-between bg-gray-50">
+    <section className="p-8 md:p-16 flex flex-col md:flex-row items-center justify-between bg-gray-100">
   <div className="md:w-1/2 mb-8 md:mb-0">
-    <img src="/assets/conference.jpg" alt="Conference" className="rounded-lg shadow-md" />
+    <img src="/kmmc.jpg" alt="Conference" className=" shadow-md"/>
   </div>
 
   <div className="md:w-1/2 md:pl-12">
