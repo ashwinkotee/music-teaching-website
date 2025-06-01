@@ -3,8 +3,12 @@ import React from 'react';
 const InfoSection = () => {
   return (
     <section className="p-8 md:p-16 flex flex-col md:flex-row items-center justify-between bg-gray-50">
-  <div className="md:w-1/2 mb-8 md:mb-0">
-    <img src="/assets/conference.jpg" alt="Conference" className="rounded-lg shadow-md" />
+  <div className="md:w-1/2 h-full">
+    <img
+      src="/piano.jpg"
+      alt="Studio"
+      className="w-full h-full object-cover"
+    />
   </div>
 
   <div className="md:w-1/2 md:pl-12">

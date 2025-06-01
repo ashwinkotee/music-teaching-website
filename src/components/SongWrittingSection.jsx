@@ -12,8 +12,13 @@ const SongWritingSection = () => {
       
       <div className="md:w-1/2 md:pl-12">
         <h2 className="text-3xl font-bold mb-4">Song Writting Lessons </h2>
-        <p className="mb-4">The BSU Academic Summit is an annual conference where educators under the BSU umbrella can share their knowledge, learn, and empower each other.</p>
-        <p className="mb-6">This year, we're focusing on future-readiness. Education is evolving, and we need to elevate our platforms, methods and resources to rise to the challenges of the future.</p>
+        <p className="mb-4">Whether you're a complete beginner or a seasoned musician, songwriting is about discovering your voice — and giving it shape, structure, and emotion.</p>
+        <p className="mb-6">In my songwriting lessons, you'll learn how to turn ideas into melodies, lyrics into stories,
+          and emotions into harmonies. We’ll explore composition, structure, lyric writing, chord progressions,
+          and even arrangement techniques tailored for piano and modern production.</p>
+        <p className="mb-4" >You'll also get insight into how songs are created for albums, movies, and live performances —
+        drawing from my real-world experience composing for film and releasing original tracks.</p>
+        <p className="mb-4">Every lesson is hands-on, project-based, and designed to bring your creativity forward.</p>
         <a href="#contact" className="px-5 py-2 bg-white text-black rounded border hover:bg-gray-100 transition">
           See More
         </a>
