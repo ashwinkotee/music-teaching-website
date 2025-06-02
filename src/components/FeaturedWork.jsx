@@ -3,15 +3,15 @@ import React from 'react';
 
 const releasedSongs = [
   {
-    title: "Echoes of Time",
-    artwork: "/assets/echoes.jpg",
-    youtube: "https://www.youtube.com/watch?v=XXXXXXXX",
-    spotify: "https://open.spotify.com/track/XXXXXXXX",
+    title: "Unnil Ennai",
+    artwork: "/unnilEnnai.jpeg",
+    youtube: "https://youtu.be/Y48Jb62tE34?si=QR1m3UvNIOg5_Iyz",
+    spotify: "https://open.spotify.com/track/0oZmUWs9dkZTQK303eQGMh?si=3VbctZUAT2ShNda4OGMQmQ",
     story: "A cinematic piano-driven journey through past memories and future dreams.",
   },
   {
-    title: "Skyline Dreams",
-    artwork: "/assets/skyline.jpg",
+    title: "Siragai",
+    artwork: "/siragai.jpeg",
     youtube: "https://www.youtube.com/watch?v=YYYYYYYY",
     spotify: "https://open.spotify.com/track/YYYYYYYY",
     story: "Inspired by the city lights and late-night studio sessions.",
@@ -30,7 +30,7 @@ const backgroundScores = [
 const FeaturedWork = () => {
   return (
     <section className="py-16 px-6 md:px-16 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-      <h2 className="text-3xl font-bold mb-12 text-center">🎵 Featured Work / Discography</h2>
+      <h2 className="text-3xl font-bold mb-12 text-center"> Featured Work </h2>
 
       {/* Released Songs */}
       <div className="mb-16">

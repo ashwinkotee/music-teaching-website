@@ -27,7 +27,7 @@ const InfoSection = () => {
     </div>
 
     <button className="px-5 py-2 bg-white text-black border rounded hover:bg-gray-100 transition">
-      See More
+      About Me
     </button>
   </div>
 </section>
