@@ -2,6 +2,7 @@ import React from 'react';
 
 const InfoSection = () => {
   return (
+<<<<<<< HEAD
     <section className="p-8 md:p-16 flex flex-col md:flex-row items-center justify-between bg-gray-50">
   <div className="md:w-1/2 h-full">
     <img
@@ -9,6 +10,11 @@ const InfoSection = () => {
       alt="Studio"
       className="w-full h-full object-cover"
     />
+=======
+    <section className="p-8 md:p-16 flex flex-col md:flex-row items-center justify-between bg-gray-100">
+  <div className="md:w-1/2 mb-8 md:mb-0">
+    <img src="/kmmc.jpg" alt="Conference" className=" shadow-md"/>
+>>>>>>> 54e1235091e4a4645946888858ec4801b614cf69
   </div>
 
   <div className="md:w-1/2 md:pl-12">
@@ -31,7 +37,7 @@ const InfoSection = () => {
     </div>
 
     <button className="px-5 py-2 bg-white text-black border rounded hover:bg-gray-100 transition">
-      See More
+      About Me
     </button>
   </div>
 </section>
