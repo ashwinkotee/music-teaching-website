@@ -50,24 +50,46 @@ const FeaturedWork = () => {
         </div>
       </div>
 
-      {/* Background Scores */}
-      <div>
-        <h3 className="text-2xl font-semibold mb-6">🎬 Background Scores</h3>
-        <div className="space-y-10">
-          {backgroundScores.map((score, index) => (
-            <div key={index} className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <h4 className="text-xl font-bold mb-2">{score.film}</h4>
-              <p className="mb-3">{score.description}</p>
-              {score.video && (
-                <a href={score.video} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mb-3 block">
-                  Watch Behind the Scenes
-                </a>
-              )}
-              {score.testimonial && <p className="italic text-sm text-gray-600 dark:text-gray-300">"{score.testimonial}"</p>}
-            </div>
-          ))}
-        </div>
-      </div>
+      {/* Background Scores
+<div className="mb-16">
+  <h3 className="text-2xl font-semibold mb-6">Background Scores</h3>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow">
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameBorder="no"
+        allow="autoplay"
+        title="score-1"
+        src="https://on.soundcloud.com/HJ64KtMRGfV6kQsL7"
+      ></iframe>
+    </div>
+    <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow">
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameBorder="no"
+        allow="autoplay"
+        title="score-2"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/YOUR_TRACK_ID_2&color=%23212121&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"
+      ></iframe>
+    </div>
+    <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow">
+      <iframe
+        width="100%"
+        height="166"
+        scrolling="no"
+        frameBorder="no"
+        allow="autoplay"
+        title="score-3"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/YOUR_TRACK_ID_3&color=%23212121&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"
+      ></iframe>
+    </div>
+  </div>
+</div> */}
+
     </section>
   );
 };
