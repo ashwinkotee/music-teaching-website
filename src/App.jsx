@@ -1,26 +1,23 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import HeroSection from './components/HeroSection';
-import InfoSection from './components/InfoSection';
-import PackagesSection from './components/PackageSection';
-import SongWritingSection from './components/SongWrittingSection';
-import FeaturedWork from './components/FeaturedWork';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import KidsPiano from './pages/KidsPiano';
+import GroupClass from './pages/GroupClass';
+import PayAsYouGo from './pages/PayAsYouGo';
+import SongwritingClass from './pages/SongwritingClass';
+import Home from './pages/Home';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <HeroSection/>
-      <InfoSection/>
-      <PackagesSection/>
-      <SongWritingSection/>
-      <FeaturedWork/>
-      <ContactForm/>
-      <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/kids-piano" element={<KidsPiano />} />
+        <Route path="/group-class" element={<GroupClass />} />
+        <Route path="/pay-as-you-go" element={<PayAsYouGo />} />
+        <Route path="/songwriting-class" element={<SongwritingClass />} />
+      </Routes>
+    </Router>
   )
 }
 

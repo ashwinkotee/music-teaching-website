@@ -16,7 +16,7 @@ const SongWritingSection = () => {
         </a>
       </div>
       <div className="md:w-1/2 mb-8 md:mb-0">
-        <img src="/studio.jpeg" alt="Conference" className="rounded-lg shadow-md" />
+        <img src="/myStudio.png" alt="Conference" className="rounded-lg shadow-md" />
       </div>
     </section>
   );
