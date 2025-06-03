@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 const InfoSection = () => {
   return (
@@ -25,10 +25,11 @@ const InfoSection = () => {
         a composition project, or a live performance. Let’s create something beautiful together.
       </p>
     </div>
-
-    <button className="px-5 py-2 bg-white text-black border rounded hover:bg-gray-100 transition">
-      About Me
-    </button>
+    <Link to={"/about-me"}>
+      <button className="px-5 py-2 bg-white text-black border rounded hover:bg-gray-100 transition">
+        About Me
+      </button>
+    </Link>
   </div>
 </section>
   );
