@@ -12,7 +12,7 @@ const ContactForm = () => {
 
   return (
     <section id="contact" className="py-16 px-6 md:px-16 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-white">
-      <h2 className="text-3xl font-bold text-center mb-8">📩 Get in Touch</h2>
+      <h2 className="text-3xl font-bold text-center mb-8">Get in Touch</h2>
       <form onSubmit={handleSubmit} className="max-w-3xl mx-auto bg-white dark:bg-gray-700 p-6 rounded-lg shadow space-y-4">
         <div className="flex flex-col md:flex-row gap-4">
           <input
