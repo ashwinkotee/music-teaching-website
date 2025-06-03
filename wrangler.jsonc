@@ -1,0 +1,9 @@
+{
+    "name": "music-teaching-website",
+    "main": "src/index.js",
+    "compatibility_date": "2025-06-03",
+    "workers_dev": false,
+    "assert": {
+        "direcory": "./dist"
+    }
+}

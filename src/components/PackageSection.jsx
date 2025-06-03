@@ -89,18 +89,18 @@ const packages = [
     ],
     more:"/kids-piano"
   },
-  {
-    title: "Introductory Piano Course (36 Weeks)",
-    price: "$185/month",
-    description: "A structured 36-week course that lays the foundation for confident piano learning.",
-    features: [
-      "Ages 5+",
-      "Weekly sessions with progressive curriculum",
-      "Focus on rhythm, finger placement, ear training",
-      "Ideal for students preparing for long-term piano learning"
-    ],
-    more:"/Introductory-piano-course"
-  },
+  // {
+  //   title: "Introductory Piano Course (36 Weeks)",
+  //   price: "$185/month",
+  //   description: "A structured 36-week course that lays the foundation for confident piano learning.",
+  //   features: [
+  //     "Ages 5+",
+  //     "Weekly sessions with progressive curriculum",
+  //     "Focus on rhythm, finger placement, ear training",
+  //     "Ideal for students preparing for long-term piano learning"
+  //   ],
+  //   more:"/Introductory-piano-course"
+  // },
   {
     title: "Piano & Theory Program (Ages 5–Adult)",
     price: "Youth: $200/month",
@@ -112,7 +112,18 @@ const packages = [
       "Personalized approach with performance tracking"
     ],
     more:"/piano-theory-course"
-  },
+  },{
+  title: "Songwriting & Composition Program (Ages 10–Adult)",
+  price: "All Ages: $200/month",
+  description: "An immersive creative program focused on lyric writing, melody building, and music arrangement.",
+  features: [
+    "4 individual songwriting coaching sessions",
+    "2 group feedback and collaboration sessions",
+    "60 mins per class",
+    "Covers lyrics, melody, harmony, and structure"
+  ],
+  more: "/songwriting-class"
+}
   // {
   //   title: "Music Theory Classes",
   //   price: "$620/year",
