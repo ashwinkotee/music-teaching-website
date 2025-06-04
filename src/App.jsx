@@ -29,21 +29,31 @@ function App() {
   };
 
   return (
-    <Router>
-      <ScrollToTop />
-      <ScrollToHash />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/kids-piano" element={<KidsPiano />} />
-        <Route
-          path="/Introductory-piano-course"
-          element={<IntroductoryPianoCourse />}
-        />
-        <Route path="/piano-theory-course" element={<PianoTheoryProgram />} />
-        <Route path="/songwriting-class" element={<SongwritingLessonsPage />} />
-        <Route path="/about-me" element={<AboutMePage />} />
-      </Routes>
-    </Router>
+    <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+      <div className="max-w-screen-2xl mx-auto">
+        <Router>
+          <ScrollToTop />
+          <ScrollToHash />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/kids-piano" element={<KidsPiano />} />
+            <Route
+              path="/Introductory-piano-course"
+              element={<IntroductoryPianoCourse />}
+            />
+            <Route
+              path="/piano-theory-course"
+              element={<PianoTheoryProgram />}
+            />
+            <Route
+              path="/songwriting-class"
+              element={<SongwritingLessonsPage />}
+            />
+            <Route path="/about-me" element={<AboutMePage />} />
+          </Routes>
+        </Router>
+      </div>
+    </div>
   );
 }
 
