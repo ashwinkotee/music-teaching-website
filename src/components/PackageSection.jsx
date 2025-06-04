@@ -77,18 +77,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 
 const packages = [
-  {
-    title: "Kids Music Class (Ages 0–5)",
-    price: "$100/month",
-    description: "Engaging and playful early music introduction for young children.",
-    features: [
-      "45 mins per class",
-      "4 classes per month",
-      "Group of 3–5 kids max",
-      "Fun-focused foundational music experience"
-    ],
-    more:"/kids-piano"
-  },
+  
   // {
   //   title: "Introductory Piano Course (36 Weeks)",
   //   price: "$185/month",
@@ -102,28 +91,44 @@ const packages = [
   //   more:"/Introductory-piano-course"
   // },
   {
-    title: "Piano & Theory Program (Ages 5–Adult)",
-    price: "Youth: $200/month",
-    description: "A comprehensive hybrid model of practical and theory classes tailored for each age group.",
-    features: [
-      "4 one-on-one practical lessons",
-      "2 group theory sessions per month",
-      "60 mins per class",
-      "Personalized approach with performance tracking"
-    ],
-    more:"/piano-theory-course"
-  },{
-  title: "Songwriting & Composition Program (Ages 10–Adult)",
-  price: "All Ages: $200/month",
-  description: "An immersive creative program focused on lyric writing, melody building, and music arrangement.",
+  title: "Kids Music Class",
+  price: "$100/month",
+  description: "A playful and interactive introduction to music for young children.",
   features: [
-    "4 individual songwriting coaching sessions",
-    "2 group feedback and collaboration sessions",
-    "60 mins per class",
-    "Covers lyrics, melody, harmony, and structure"
+    "Ages 0–5",
+    "45-minute group classes",
+    "4 sessions per month",
+    "Small groups (3–5 kids)",
+    "Foundational skills through fun and movement"
+  ],
+  more: "/kids-piano"
+},
+{
+  title: "Piano & Theory Program",
+  price: "Youth: $200/month",
+  description: "A balanced mix of practical and theory lessons tailored to individual learning needs.",
+  features: [
+    "Ages 5–Adult",
+    "4 private practical lessons",
+    "2 group theory sessions per month",
+    "60-minute classes",
+    "Customized learning with progress tracking"
+  ],
+  more: "/piano-theory-course"
+},
+{
+  title: "Songwriting & Composition Program",
+  price: "All Ages: $200/month",
+  description: "A creative journey into songwriting, melody building, and musical storytelling.",
+  features: [
+    "Ages 10–Adult",
+    "4 private songwriting coaching sessions",
+    "60-minute classes",
+    "Includes lyric writing, harmony, and arrangement"
   ],
   more: "/songwriting-class"
 }
+
   // {
   //   title: "Music Theory Classes",
   //   price: "$620/year",

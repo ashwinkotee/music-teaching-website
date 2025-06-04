@@ -5,7 +5,7 @@ const SongWritingSection = () => {
     <section className="p-8 md:p-16 flex flex-col md:flex-row items-center justify-between bg-gray-100">
       
       <div className="md:w-1/2 md:pr-8">
-        <h2 className="text-3xl font-bold mb-4">Song Writting Lessons</h2>
+        <h2 className="text-3xl font-bold mb-4">Song Writting</h2>
         <p className="mb-4">
           Whether you're a complete beginner or a seasoned musician, songwriting is about discovering your voice — and giving it shape, structure, and emotion.
         </p>

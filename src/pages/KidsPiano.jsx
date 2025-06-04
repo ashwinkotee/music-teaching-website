@@ -17,34 +17,52 @@ const KidsPiano = () => {
         </div>
 
         {/* Course Details */}
-        <div className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6">Course Overview</h2>
-          <p className="mb-4">
-            Our Kids Piano Course is an engaging and nurturing experience tailored to children ages 0–5. It introduces them to the magical world of music through singing, movement, rhythm, and guided listening.
-          </p>
-          <ul className="list-disc list-inside space-y-2">
-            <li><strong>Age Group:</strong> 0–5 years</li>
-            <li><strong>Format:</strong> Group class (3–5 kids per session)</li>
-            <li><strong>Class Duration:</strong> 45 minutes</li>
-            <li><strong>Frequency:</strong> 4 sessions per month</li>
-            <li><strong>Tuition:</strong> $100/month</li>
-            <li><strong>Location:</strong> In-person (Halifax, NS) or Online</li>
-            <li><strong>Parental Involvement:</strong> Parents are encouraged to participate</li>
-          </ul>
-        </div>
+        <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Class Overview</h2>
+        <ul className="list-disc pl-6 space-y-1">
+          <li><strong>Age Group:</strong> 0 to 5 years</li>
+          <li><strong>Format:</strong> Group Class (3–5 kids per group)</li>
+          <li><strong>Duration:</strong> 45 minutes per class</li>
+          <li><strong>Frequency:</strong> 4 classes per month</li>
+          <li><strong>Cost:</strong> $100/month</li>
+        </ul>
+      </section>
 
-        {/* Sample Curriculum */}
-        <div className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6">Sample Syllabus</h2>
-          <ul className="list-disc list-inside space-y-2">
-            <li>Week 1: Introduction to High and Low Sounds</li>
-            <li>Week 2: Movement and Rhythm with Instruments</li>
-            <li>Week 3: Singing Simple Melodies and Nursery Rhymes</li>
-            <li>Week 4: Storytelling with Musical Sounds</li>
-            <li>Week 5–8: Group Play with Percussion, Piano Key Discovery</li>
-            <li>Month 3–6: Pitch and Dynamics Recognition, Music Games</li>
-          </ul>
-        </div>
+
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">What Kids Will Learn</h2>
+        <ul className="list-disc pl-6 space-y-1">
+          <li>Rhythm and Movement: Activities that help children internalize beats and tempos</li>
+          <li>Pitch Exploration: High vs low, loud vs soft sound play</li>
+          <li>Instrument Discovery: Hands-on time with mini pianos, drums, shakers, and bells</li>
+          <li>Listening Skills: Musical storytelling and guided listening games</li>
+          <li>Motor Skills: Clapping, tapping, and dancing to build coordination</li>
+          <li>Group Participation: Social learning through music play and cooperation</li>
+        </ul>
+      </section>
+
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Class Syllabus Overview</h2>
+        <p>
+          In our Kids Music Class, children are gently introduced to the world of music through a variety of playful and engaging activities. We begin by helping them explore the difference between high and low sounds using fun vocal and instrumental games. As the sessions progress, kids develop a sense of rhythm and movement through guided activities involving hand-held percussion instruments.
+        </p>
+        <p className="mt-2">
+          They will learn to sing along to simple melodies and familiar nursery rhymes, building confidence in pitch and vocal expression. Musical storytelling is introduced to spark imagination and enhance listening skills, as children begin to associate sounds with characters, actions, and emotions.
+        </p>
+        <p className="mt-2">
+          As they grow comfortable, children engage in group play with drums, shakers, and beginner-friendly piano keys. They begin recognizing changes in pitch and dynamics (loud/soft) while participating in interactive music games designed to nurture coordination, memory, and group cooperation.
+        </p>
+        <p className="mt-2">
+          Each class blends movement, sound, and fun to build a lifelong love of music, all in a supportive and social setting.
+        </p>
+      </section>
+
+      <section className="mb-6">
+        <h2 className="text-2xl font-semibold mb-2">Parent Involvement</h2>
+        <p>
+          We encourage light parent participation during class to enhance bonding and support the child’s learning process. No musical experience is needed for parents!
+        </p>
+      </section>
 
         {/* Benefits Section */}
         <div className="mb-12">
