@@ -1,7 +1,9 @@
-import React from 'react';
+import BackArrow from '../components/BackArrow';
 
 const PianoTheoryProgram = () => {
   return (
+    <div className="relative min-h-screen bg-white dark:bg-gray-900">
+      <BackArrow />
     <section className="bg-white dark:bg-gray-900 py-16 px-6 md:px-16 text-gray-900 dark:text-white">
       <div className="max-w-4xl mx-auto">
 
@@ -74,6 +76,7 @@ const PianoTheoryProgram = () => {
 
       </div>
     </section>
+    </div>
   );
 };
 

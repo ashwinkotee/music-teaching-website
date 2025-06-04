@@ -1,4 +1,3 @@
-// src/components/FeaturedWork.jsx
 import React from 'react';
 
 const releasedSongs = [
@@ -22,8 +21,20 @@ const backgroundScores = [
   {
     film: "Whispers of the Wind (2023)",
     description: "Composed the complete background score. A spiritual tale of love and longing.",
-    video: "https://www.youtube.com/watch?v=ZZZZZZZZ",
+    audio: "/sample1.mp3",
     testimonial: "Ashwin's score elevated the entire emotional depth of the film. — Director, WOTW",
+  },
+  {
+    film: "Dreamscapes",
+    description: "An emotional journey through layered piano textures and ambient moods.",
+    audio: "/sample2.mp3",
+    testimonial: "It perfectly captured the tone we needed for our short film.",
+  },
+  {
+    film: "The Journey Within",
+    description: "Blending minimalistic piano with atmospheric harmonies for a meditative narrative.",
+    audio: "/sample3.mp3",
+    testimonial: "Evocative and cinematic — beautifully composed.",
   },
 ];
 
@@ -50,46 +61,23 @@ const FeaturedWork = () => {
         </div>
       </div>
 
-      {/* Background Scores
-<div className="mb-16">
-  <h3 className="text-2xl font-semibold mb-6">Background Scores</h3>
-  <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-    <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow">
-      <iframe
-        width="100%"
-        height="166"
-        scrolling="no"
-        frameBorder="no"
-        allow="autoplay"
-        title="score-1"
-        src="https://on.soundcloud.com/HJ64KtMRGfV6kQsL7"
-      ></iframe>
-    </div>
-    <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow">
-      <iframe
-        width="100%"
-        height="166"
-        scrolling="no"
-        frameBorder="no"
-        allow="autoplay"
-        title="score-2"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/YOUR_TRACK_ID_2&color=%23212121&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"
-      ></iframe>
-    </div>
-    <div className="bg-gray-100 dark:bg-gray-800 p-4 rounded-lg shadow">
-      <iframe
-        width="100%"
-        height="166"
-        scrolling="no"
-        frameBorder="no"
-        allow="autoplay"
-        title="score-3"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/YOUR_TRACK_ID_3&color=%23212121&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"
-      ></iframe>
-    </div>
-  </div>
-</div> */}
-
+      {/* Background Scores */}
+      {/* <div className="mb-16">
+        <h3 className="text-2xl font-semibold mb-6">Background Scores</h3>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {backgroundScores.map((score, idx) => (
+            <div key={idx} className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
+              <h4 className="text-xl font-bold mb-2">{score.film}</h4>
+              <p className="mb-2">{score.description}</p>
+              <audio controls className="w-full mb-2">
+                <source src={score.audio} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+              <p className="italic text-sm text-gray-600 dark:text-gray-300">"{score.testimonial}"</p>
+            </div>
+          ))}
+        </div>
+      </div> */}
     </section>
   );
 };
