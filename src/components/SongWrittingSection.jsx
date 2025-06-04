@@ -50,7 +50,7 @@ const SongWritingSection = () => {
       {/* Desktop Image */}
       <div className="hidden md:block md:w-1/2">
         <img
-          src="/myStudio.png"
+          src="/myStudioNew.png"
           alt="Studio"
           className="w-full rounded-lg shadow-md"
         />
