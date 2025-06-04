@@ -1,38 +1,46 @@
-import React from 'react';
+import React from "react";
 
 const releasedSongs = [
   {
     title: "Unnil Ennai",
     artwork: "/unnilEnnai.jpeg",
     youtube: "https://youtu.be/Y48Jb62tE34?si=QR1m3UvNIOg5_Iyz",
-    spotify: "https://open.spotify.com/track/0oZmUWs9dkZTQK303eQGMh?si=3VbctZUAT2ShNda4OGMQmQ",
-    story: "A cinematic piano-driven journey through past memories and future dreams.",
+    spotify:
+      "https://open.spotify.com/track/0oZmUWs9dkZTQK303eQGMh?si=3VbctZUAT2ShNda4OGMQmQ",
+    story:
+      "A heartfelt love song capturing the quiet emotions of being completely lost in someone you love — delicate, sincere, and intimate.",
   },
   {
     title: "Siragai",
     artwork: "/siragai.jpeg",
-    youtube: "https://www.youtube.com/watch?v=YYYYYYYY",
-    spotify: "https://open.spotify.com/track/YYYYYYYY",
-    story: "Inspired by the city lights and late-night studio sessions.",
+    youtube: "https://youtu.be/Fa3m6mXVYhw?si=gl-pH7qKNEEn8gBn",
+    spotify:
+      "https://open.spotify.com/track/64LpgHmtGzKhU1CI3BShT1?si=7d902bc56854438d",
+    story:
+      "A poetic expression of love and admiration for a woman who feels like wings to the heart — light, uplifting, and emotional.",
   },
 ];
 
 const backgroundScores = [
   {
     film: "Whispers of the Wind (2023)",
-    description: "Composed the complete background score. A spiritual tale of love and longing.",
+    description:
+      "Composed the complete background score. A spiritual tale of love and longing.",
     audio: "/sample1.mp3",
-    testimonial: "Ashwin's score elevated the entire emotional depth of the film. — Director, WOTW",
+    testimonial:
+      "Ashwin's score elevated the entire emotional depth of the film. — Director, WOTW",
   },
   {
     film: "Dreamscapes",
-    description: "An emotional journey through layered piano textures and ambient moods.",
+    description:
+      "An emotional journey through layered piano textures and ambient moods.",
     audio: "/sample2.mp3",
     testimonial: "It perfectly captured the tone we needed for our short film.",
   },
   {
     film: "The Journey Within",
-    description: "Blending minimalistic piano with atmospheric harmonies for a meditative narrative.",
+    description:
+      "Blending minimalistic piano with atmospheric harmonies for a meditative narrative.",
     audio: "/sample3.mp3",
     testimonial: "Evocative and cinematic — beautifully composed.",
   },
@@ -48,13 +56,34 @@ const FeaturedWork = () => {
         <h3 className="text-2xl font-semibold mb-6">Released Songs</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {releasedSongs.map((song, index) => (
-            <div key={index} className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
-              <img src={song.artwork} alt={song.title} className="rounded mb-4 w-full h-56 object-cover" />
+            <div
+              key={index}
+              className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col"
+            >
+              <img
+                src={song.artwork}
+                alt={song.title}
+                className="rounded mb-4 w-full h-56 object-cover"
+              />
               <h4 className="text-xl font-bold mb-2">{song.title}</h4>
               <p className="text-sm mb-4">{song.story}</p>
               <div className="flex space-x-4">
-                <a href={song.youtube} target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">YouTube</a>
-                <a href={song.spotify} target="_blank" rel="noopener noreferrer" className="text-green-500 hover:underline">Spotify</a>
+                <a
+                  href={song.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-600 hover:underline"
+                >
+                  YouTube
+                </a>
+                <a
+                  href={song.spotify}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-500 hover:underline"
+                >
+                  Spotify
+                </a>
               </div>
             </div>
           ))}
