@@ -3,7 +3,7 @@
     "main": "src/index.js",
     "compatibility_date": "2025-06-03",
     "workers_dev": false,
-    "assert": {
+    "assets": {
         "direcory": "./dist"
     }
 }
