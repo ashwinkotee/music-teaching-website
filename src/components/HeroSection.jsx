@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className= " bg-black/50 bg-blend-overlay items-start justify-start bg-cover bg-center px-10 pt-20 pb-60 text-left bg-[url(\piano.jpg)]" >
+    <section className= " bg-black/50 bg-blend-overlay items-start justify-start bg-cover bg-center px-10 pt-20 pb-60 text-left bg-[url(\pianoHero.jpg)]" >
       <div className="max-w-2xl">
         <h1 className="text-white text-2xl md:text-6xl font-bold mb-4 ">Learn music with Ashwin</h1>
         <p className="text-white text-lg md:text-xl mb-4">Online & In-Person ( Lower Sackville , NS)</p>
