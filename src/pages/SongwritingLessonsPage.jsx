@@ -67,11 +67,12 @@ const SongwritingLessonsPage = () => {
               <li>
                 <strong>Frequency:</strong> 4 sessions per month
               </li>
-              <li>
+              {/* <li>
                 <strong>Tuition:</strong> $200/month
-              </li>
+              </li> */}
               <li>
-                <strong>Location:</strong> In-person (Halifax, NS) or online
+                <strong>Location:</strong> In-person (Lower Sackville, NS) or
+                online
               </li>
             </ul>
           </div>

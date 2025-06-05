@@ -57,9 +57,9 @@ const KidsPiano = () => {
               <li>
                 <strong>Frequency:</strong> 4 classes per month
               </li>
-              <li>
+              {/* <li>
                 <strong>Cost:</strong> $100/month
-              </li>
+              </li> */}
             </ul>
           </section>
 

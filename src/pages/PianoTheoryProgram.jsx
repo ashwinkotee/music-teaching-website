@@ -50,9 +50,9 @@ const PianoTheoryProgram = () => {
                 <strong>Frequency:</strong> 6 sessions per month (4 private
                 piano + 2 group theory)
               </li>
-              <li>
+              {/* <li>
                 <strong>Tuition:</strong> $200/month
-              </li>
+              </li> */}
               <li>
                 <strong>Delivery:</strong> In-person (Lower Sackville) or Online
               </li>

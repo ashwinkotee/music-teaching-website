@@ -49,9 +49,10 @@ const AboutMePage = () => {
             <p className="mb-4">
               Seeking mastery, I then trained under the Russian Piano School
               with Surojith Chatterjee — a rigorous, expressive approach to
-              performance. My dedication led to a once-in-a-lifetime
+              performance.
+              {/* My dedication led to a once-in-a-lifetime
               opportunity: performing at the prestigious Moscow Conservatory as
-              one of only ten selected students.
+              one of only ten selected students. */}
             </p>
             <p className="mb-4">
               But my creativity didn’t stop at the piano. In Budapest, I

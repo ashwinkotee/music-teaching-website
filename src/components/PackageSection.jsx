@@ -91,7 +91,7 @@ const packages = [
   // },
   {
     title: "Kids Music Class",
-    price: "$100/month",
+    price: "",
     description:
       "A playful and interactive introduction to music for young children.",
     features: [
@@ -105,7 +105,7 @@ const packages = [
   },
   {
     title: "Piano & Theory Program",
-    price: "$200/month",
+    price: "",
     description:
       "A balanced mix of practical and theory lessons tailored to individual learning needs.",
     features: [
@@ -119,7 +119,7 @@ const packages = [
   },
   {
     title: "Songwriting & Composition Program",
-    price: "$200/month",
+    price: "",
     description:
       "A creative journey into songwriting, melody building, and musical storytelling.",
     features: [
@@ -156,7 +156,12 @@ const PackagesSection = () => {
             className="bg-gray-800 text-white p-6 rounded-lg shadow-lg flex flex-col"
           >
             <h3 className="text-2xl font-semibold mb-2">{pkg.title}</h3>
-            <p className="text-indigo-400 font-bold mb-2">{pkg.price}</p>
+            {pkg.price ? (
+              <p className="text-indigo-400 font-bold mb-2">{pkg.price}</p>
+            ) : (
+              ""
+            )}
+
             <p className="mb-4">{pkg.description}</p>
             <ul className="list-disc list-inside space-y-1 text-sm mb-6">
               {pkg.features.map((feature, index) => (
