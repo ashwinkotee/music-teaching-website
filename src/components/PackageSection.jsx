@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 // import React from 'react';
 
@@ -74,10 +74,9 @@ import { Link } from 'react-router-dom';
 // };
 
 // export default PackagesSection;
-import React from 'react';
+import React from "react";
 
 const packages = [
-  
   // {
   //   title: "Introductory Piano Course (36 Weeks)",
   //   price: "$185/month",
@@ -91,43 +90,46 @@ const packages = [
   //   more:"/Introductory-piano-course"
   // },
   {
-  title: "Kids Music Class",
-  price: "$100/month",
-  description: "A playful and interactive introduction to music for young children.",
-  features: [
-    "Ages 0–5",
-    "45-minute group classes",
-    "4 sessions per month",
-    "Small groups (3–5 kids)",
-    "Foundational skills through fun and movement"
-  ],
-  more: "/kids-piano"
-},
-{
-  title: "Piano & Theory Program",
-  price: "Youth: $200/month",
-  description: "A balanced mix of practical and theory lessons tailored to individual learning needs.",
-  features: [
-    "Ages 5–Adult",
-    "4 private practical lessons",
-    "2 group theory sessions per month",
-    "60-minute classes",
-    "Customized learning with progress tracking"
-  ],
-  more: "/piano-theory-course"
-},
-{
-  title: "Songwriting & Composition Program",
-  price: "All Ages: $200/month",
-  description: "A creative journey into songwriting, melody building, and musical storytelling.",
-  features: [
-    "Ages 10–Adult",
-    "4 private songwriting coaching sessions",
-    "60-minute classes",
-    "Includes lyric writing, harmony, and arrangement"
-  ],
-  more: "/songwriting-class"
-}
+    title: "Kids Music Class",
+    price: "$100/month",
+    description:
+      "A playful and interactive introduction to music for young children.",
+    features: [
+      "Ages 0–5",
+      "45-minute group classes",
+      "4 sessions per month",
+      "Small groups (3–5 kids)",
+      "Foundational skills through fun and movement",
+    ],
+    more: "/kids-piano",
+  },
+  {
+    title: "Piano & Theory Program",
+    price: "$200/month",
+    description:
+      "A balanced mix of practical and theory lessons tailored to individual learning needs.",
+    features: [
+      "Ages 5–Adult",
+      "4 private practical lessons",
+      "2 group theory sessions per month",
+      "60-minute classes",
+      "Customized learning with progress tracking",
+    ],
+    more: "/piano-theory-course",
+  },
+  {
+    title: "Songwriting & Composition Program",
+    price: "$200/month",
+    description:
+      "A creative journey into songwriting, melody building, and musical storytelling.",
+    features: [
+      "Ages 10–Adult",
+      "4 private songwriting coaching sessions",
+      "60-minute classes",
+      "Developing a song from scratch including lyric writing, harmony, and arrangement",
+    ],
+    more: "/songwriting-class",
+  },
 
   // {
   //   title: "Music Theory Classes",
@@ -144,10 +146,15 @@ const packages = [
 const PackagesSection = () => {
   return (
     <section className="bg-gray-900 py-16 px-6">
-      <h2 className="text-3xl font-bold text-center text-white mb-12">Piano & Music Theory Lessons</h2>
+      <h2 className="text-3xl font-bold text-center text-white mb-12">
+        Piano & Music Theory Lessons
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {packages.map((pkg, idx) => (
-          <div key={idx} className="bg-gray-800 text-white p-6 rounded-lg shadow-lg flex flex-col">
+          <div
+            key={idx}
+            className="bg-gray-800 text-white p-6 rounded-lg shadow-lg flex flex-col"
+          >
             <h3 className="text-2xl font-semibold mb-2">{pkg.title}</h3>
             <p className="text-indigo-400 font-bold mb-2">{pkg.price}</p>
             <p className="mb-4">{pkg.description}</p>
