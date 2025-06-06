@@ -13,21 +13,24 @@ const SongWritingSection = () => {
           emotion.
         </p>
 
+        {/* Mobile Image */}
+        <div className="block md:hidden w-full mb-4">
+          <img
+            src="/myStudioNew.png"
+            alt="Studio"
+            className="w-full rounded-lg shadow-md"
+          />
+          <p className="text-sm text-gray-600 italic mt-2 text-center">
+            My home studio setup where I teach, compose, and produce music.
+          </p>
+        </div>
+
         <p className="mb-6">
           In my songwriting lessons, you'll learn how to turn ideas into
           melodies, lyrics into stories, and emotions into harmonies. We’ll
           explore composition, structure, lyric writing, chord progressions, and
           even arrangement techniques tailored for piano and modern production.
         </p>
-
-        {/* Mobile Image */}
-        <div className="block md:hidden w-full mb-6">
-          <img
-            src="/myStudioNew.png"
-            alt="Studio"
-            className="w-full rounded-lg shadow-md"
-          />
-        </div>
 
         <p className="mb-6">
           You'll also get insight into how songs are created for albums, movies,
@@ -54,6 +57,9 @@ const SongWritingSection = () => {
           alt="Studio"
           className="w-full rounded-lg shadow-md"
         />
+        <p className="text-sm text-gray-600 italic mt-2 text-center">
+          My home studio setup where I teach, compose, and produce music.
+        </p>
       </div>
     </section>
   );
