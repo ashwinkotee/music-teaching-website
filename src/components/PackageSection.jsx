@@ -95,10 +95,10 @@ const packages = [
     description:
       "A playful and interactive introduction to music for young children.",
     features: [
-      "Ages 0–5",
+      "Ages 3 – 5",
       "45-minute group classes",
       "4 sessions per month",
-      "Small groups (3–5 kids)",
+      "Small groups (3 – 5 kids)",
       "Foundational skills through fun and movement",
     ],
     more: "/kids-piano",
@@ -109,7 +109,7 @@ const packages = [
     description:
       "A balanced mix of practical and theory lessons tailored to individual learning needs.",
     features: [
-      "Ages 5–Adult",
+      "Ages 5+",
       "4 private practical lessons",
       "2 group theory sessions per month",
       "60-minute classes",
@@ -123,7 +123,7 @@ const packages = [
     description:
       "A creative journey into songwriting, melody building, and musical storytelling.",
     features: [
-      "Ages 10–Adult",
+      "Ages 10+",
       "4 private songwriting coaching sessions",
       "60-minute classes",
       "Developing a song from scratch including lyric writing, harmony, and arrangement",
