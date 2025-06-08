@@ -46,6 +46,17 @@ const AboutMePage = () => {
               It was a year that shaped my identity not just as a player, but as
               an artist.
             </p>
+            <div className="flex flex-col items-center my-6">
+              <img
+                src="/withArr.jpg"
+                alt="Ashwin at performance"
+                className="rounded-lg shadow-lg w-full max-w-3xl"
+              />
+              <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 italic">
+                I’m the first person from the left.
+              </p>
+            </div>
+
             <p className="mb-4">
               Seeking mastery, I then trained under the Russian Piano School
               with Surojith Chatterjee — a rigorous, expressive approach to
