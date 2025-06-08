@@ -9,6 +9,7 @@ import AboutMePage from "./pages/AboutMePage";
 import ScrollToTop from "./components/ScrollToTop";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import FacebookPixel from "./components/FacebookPixel";
 
 function App() {
   const ScrollToHash = () => {
@@ -34,6 +35,7 @@ function App() {
         <Router>
           <ScrollToTop />
           <ScrollToHash />
+          <FacebookPixel />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/kids-piano" element={<KidsPiano />} />
