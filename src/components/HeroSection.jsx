@@ -8,7 +8,7 @@ const HeroSection = () => {
           Learn music with Ashwin
         </h1>
         <p className="text-white text-xl md:text-2xl mb-4">
-          Online & In-Person (Lower Sackville, NS)
+          Online & In-Person
         </p>
         <div className="bottom left-8">
           {/* Uncomment to show button */}
