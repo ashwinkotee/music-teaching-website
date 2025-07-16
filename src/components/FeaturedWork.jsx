@@ -48,65 +48,72 @@ const backgroundScores = [
 
 const FeaturedWork = () => {
   return (
-    <section className="py-16 px-6 md:px-16 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-      <h2 className="text-3xl font-bold mb-12 text-center"> Featured Work </h2>
+    <section className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white py-16 px-4">
+      <div className="max-w-screen-2xl mx-auto px-6 md:px-16">
+        <h2 className="text-3xl font-bold mb-12 text-center">
+          {" "}
+          Featured Work{" "}
+        </h2>
 
-      {/* Released Songs */}
-      <div className="mb-16">
-        <h3 className="text-2xl font-semibold mb-6">Released Songs</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {releasedSongs.map((song, index) => (
-            <div
-              key={index}
-              className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col"
-            >
-              <img
-                src={song.artwork}
-                alt={song.title}
-                className="rounded mb-4 w-full h-56 object-cover"
-              />
-              <h4 className="text-xl font-bold mb-2">{song.title}</h4>
-              <p className="text-sm mb-4">{song.story}</p>
-              <div className="flex space-x-4">
-                <a
-                  href={song.youtube}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-red-600 hover:underline"
-                >
-                  YouTube
-                </a>
-                <a
-                  href={song.spotify}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-green-500 hover:underline"
-                >
-                  Spotify
-                </a>
+        {/* Released Songs */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-semibold mb-6">Released Songs</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {releasedSongs.map((song, index) => (
+              <div
+                key={index}
+                className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col"
+              >
+                <img
+                  src={song.artwork}
+                  alt={song.title}
+                  className="rounded mb-4 w-full h-56 object-cover"
+                />
+                <h4 className="text-xl font-bold mb-2">{song.title}</h4>
+                <p className="text-sm mb-4">{song.story}</p>
+                <div className="flex space-x-4">
+                  <a
+                    href={song.youtube}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:underline"
+                  >
+                    YouTube
+                  </a>
+                  <a
+                    href={song.spotify}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-green-500 hover:underline"
+                  >
+                    Spotify
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
 
-      {/* Background Scores */}
-      {/* <div className="mb-16">
-        <h3 className="text-2xl font-semibold mb-6">Background Scores</h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {backgroundScores.map((score, idx) => (
-            <div key={idx} className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
-              <h4 className="text-xl font-bold mb-2">{score.film}</h4>
-              <p className="mb-2">{score.description}</p>
-              <audio controls className="w-full mb-2">
-                <source src={score.audio} type="audio/mpeg" />
-                Your browser does not support the audio element.
-              </audio>
-              <p className="italic text-sm text-gray-600 dark:text-gray-300">"{score.testimonial}"</p>
-            </div>
-          ))}
-        </div>
-      </div> */}
+        {/* Background Scores - Uncomment if needed */}
+        {/* <div className="mb-16">
+          <h3 className="text-2xl font-semibold mb-6">Background Scores</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {backgroundScores.map((score, idx) => (
+              <div key={idx} className="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
+                <h4 className="text-xl font-bold mb-2">{score.film}</h4>
+                <p className="mb-2">{score.description}</p>
+                <audio controls className="w-full mb-2">
+                  <source src={score.audio} type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
+                <p className="italic text-sm text-gray-600 dark:text-gray-300">
+                  "{score.testimonial}"
+                </p>
+              </div>
+            ))}
+          </div>
+        </div> */}
+      </div>
     </section>
   );
 };

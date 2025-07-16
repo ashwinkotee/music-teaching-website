@@ -10,6 +10,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import FacebookPixel from "./components/FacebookPixel";
+import WorkshopsPage from "./pages/WorkshopsPage";
+import Navbar from "./components/Navbar";
+import PianoBasicsWorkshop from "./components/workshops/PIanoBasicsWorkshop";
 
 function App() {
   const ScrollToHash = () => {
@@ -30,32 +33,31 @@ function App() {
   };
 
   return (
-    <div>
-      <div className="max-w-screen-2xl mx-auto">
-        <Router>
-          <ScrollToTop />
-          <ScrollToHash />
-          <FacebookPixel />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/kids-piano" element={<KidsPiano />} />
-            <Route
-              path="/Introductory-piano-course"
-              element={<IntroductoryPianoCourse />}
-            />
-            <Route
-              path="/piano-theory-course"
-              element={<PianoTheoryProgram />}
-            />
-            <Route
-              path="/songwriting-class"
-              element={<SongwritingLessonsPage />}
-            />
-            <Route path="/about-me" element={<AboutMePage />} />
-          </Routes>
-        </Router>
-      </div>
-    </div>
+    <Router>
+      <ScrollToTop />
+      <ScrollToHash />
+      <FacebookPixel />
+
+      {/* ✅ Add the Navbar before Routes */}
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/kids-piano" element={<KidsPiano />} />
+        <Route
+          path="/Introductory-piano-course"
+          element={<IntroductoryPianoCourse />}
+        />
+        <Route path="/piano-theory-course" element={<PianoTheoryProgram />} />
+        <Route path="/songwriting-class" element={<SongwritingLessonsPage />} />
+        <Route path="/about-me" element={<AboutMePage />} />
+        <Route path="/workshops" element={<WorkshopsPage />} />
+        <Route
+          path="/workshops/piano-basics-workshop"
+          element={<PianoBasicsWorkshop />}
+        />
+      </Routes>
+    </Router>
   );
 }
 
