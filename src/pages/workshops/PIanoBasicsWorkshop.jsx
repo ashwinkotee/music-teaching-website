@@ -47,7 +47,7 @@ const PianoWorkshop = () => {
               </li>
               <ul className="list-disc pl-6">
                 <li>July 25 (Friday): 4:00 PM – 5:00 PM</li>
-                <li>July 26 & 27 (Sat & Sun): 10:30 AM – 11:30 AM</li>
+                <li>July 26 & 27 (Sat & Sun): 10:00 AM – 11:00 AM</li>
               </ul>
               <li>
                 <strong>Location:</strong> In-Person (Lower Sackville)
