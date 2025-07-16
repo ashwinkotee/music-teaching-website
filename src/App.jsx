@@ -12,7 +12,7 @@ import { useLocation } from "react-router-dom";
 import FacebookPixel from "./components/FacebookPixel";
 import WorkshopsPage from "./pages/WorkshopsPage";
 import Navbar from "./components/Navbar";
-import PianoBasicsWorkshop from "./components/workshops/PIanoBasicsWorkshop";
+import PianoBasicsWorkshop from "./pages/workshops/PIanoBasicsWorkshop";
 
 function App() {
   const ScrollToHash = () => {
