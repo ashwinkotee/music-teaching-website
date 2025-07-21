@@ -27,11 +27,12 @@ const PianoWorkshop = () => {
 
             <button
               onClick={() => {
-                window.location.href = "/#contact";
+                window.location.href =
+                  "https://form.jotform.com/252015856408255";
               }}
               className="mt-6 inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow hover:bg-indigo-700 transition"
             >
-              Enroll Now
+              Register
             </button>
           </div>
 
@@ -41,6 +42,9 @@ const PianoWorkshop = () => {
             <ul className="list-disc pl-6 space-y-1">
               <li>
                 <strong>Dates:</strong> July 25, 26 & 27, 2024
+              </li>
+              <li>
+                <strong>Age:</strong> 5+
               </li>
               <li>
                 <strong>Timings:</strong>
@@ -66,29 +70,51 @@ const PianoWorkshop = () => {
             <h2 className="text-2xl font-semibold mb-2">Daily Syllabus</h2>
             <ul className="space-y-4">
               <li>
-                <strong>Day 1 – Foundations of Piano</strong>
+                <strong>Day 1 – Foundations & Exploration</strong>
                 <ul className="list-disc pl-6 text-sm">
                   <li>
-                    Introduction to piano keys, finger placement, and posture
+                    Discovering the piano: keys, finger numbers, and posture
                   </li>
-                  <li>Clapping exercises to understand rhythm</li>
-                  <li>Simple hand coordination games</li>
+                  <li>
+                    Listening and movement activities to explore high/low,
+                    loud/soft sounds
+                  </li>
+                  <li>
+                    Fun rhythm games, clapping, and basic hand coordination
+                  </li>
+                  <li>
+                    Black key discovery and first sound play (age-appropriate
+                    per group)
+                  </li>
                 </ul>
               </li>
               <li>
-                <strong>Day 2 – Melody and Practice</strong>
+                <strong>Day 2 – Melody, Rhythm & Play</strong>
                 <ul className="list-disc pl-6 text-sm">
-                  <li>Playing basic tunes using 3-5 keys</li>
-                  <li>Basic finger workouts and tempo building</li>
-                  <li>Group playing & rhythm games</li>
+                  <li>Learning simple tunes using 2–5 keys</li>
+                  <li>Age-appropriate finger exercises and tempo games</li>
+                  <li>
+                    Group playing, echo activities, and interactive rhythm
+                    circles
+                  </li>
+                  <li>
+                    Intro to music patterns, note names, or chords (for older
+                    groups)
+                  </li>
                 </ul>
               </li>
               <li>
-                <strong>Day 3 – Creativity & Expression</strong>
+                <strong>Day 3 – Creativity & Performance</strong>
                 <ul className="list-disc pl-6 text-sm">
-                  <li>Expression through dynamics (soft/loud)</li>
-                  <li>Improvised mini-performances</li>
-                  <li>Final group performance & fun quiz</li>
+                  <li>
+                    Musical storytelling, expression through dynamics and tempo
+                  </li>
+                  <li>
+                    Compose or create a simple musical idea (melody, rhythm, or
+                    chords)
+                  </li>
+                  <li>Mini solo or group performances with encouragement</li>
+                  <li>Fun wrap-up activity</li>
                 </ul>
               </li>
             </ul>
@@ -101,11 +127,12 @@ const PianoWorkshop = () => {
             </p>
             <button
               onClick={() => {
-                window.location.href = "/#contact";
+                window.location.href =
+                  "https://form.jotform.com/252015856408255";
               }}
               className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow hover:bg-indigo-700 transition"
             >
-              Contact Us to Register
+              Register
             </button>
           </div>
         </div>
