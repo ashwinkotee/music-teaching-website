@@ -50,8 +50,8 @@ const PianoWorkshop = () => {
                 <strong>Timings:</strong>
                 <ul className="list-disc pl-6 mt-2 space-y-2">
                   <li>
-                    <span className="font-semibold text-red-400">
-                      Batch 1 (FULL)
+                    <span className="font-semibold text-green-400">
+                      Batch 1 (OPEN)
                     </span>{" "}
                     <br />
                     July 25 (Friday): 4:00 PM – 5:00 PM <br />
