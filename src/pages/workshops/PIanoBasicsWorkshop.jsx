@@ -57,14 +57,14 @@ const PianoWorkshop = () => {
                     July 25 (Friday): 4:00 PM – 5:00 PM <br />
                     July 26 & 27 (Sat & Sun): 10:00 AM – 11:00 AM
                   </li>
-                  {/* <li>
+                  <li>
                     <span className="font-semibold text-green-400">
                       Batch 2 (OPEN)
                     </span>{" "}
                     <br />
                     July 25 (Friday): 5:30 PM – 6:30 PM <br />
                     July 26 & 27 (Sat & Sun): 11:30 AM – 12:30 PM
-                  </li> */}
+                  </li>
                 </ul>
               </li>
               <li>
