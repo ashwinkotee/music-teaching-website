@@ -134,7 +134,7 @@ const Aug8and9 = () => {
             <button
               onClick={() => {
                 window.location.href =
-                  "https://form.jotform.com/252015856408255";
+                  "https://form.jotform.com/252158553270254";
               }}
               className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow hover:bg-indigo-700 transition"
             >
