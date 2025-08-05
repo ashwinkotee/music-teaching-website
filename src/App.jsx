@@ -13,6 +13,7 @@ import FacebookPixel from "./components/FacebookPixel";
 import WorkshopsPage from "./pages/WorkshopsPage";
 import Navbar from "./components/Navbar";
 import PianoBasicsWorkshop from "./pages/workshops/PIanoBasicsWorkshop";
+import Aug8and9 from "./pages/workshops/aug8and9";
 
 function App() {
   const ScrollToHash = () => {
@@ -56,6 +57,7 @@ function App() {
           path="/workshops/piano-basics-workshop"
           element={<PianoBasicsWorkshop />}
         />
+        <Route path="/workshops/Aug8and9" element={<Aug8and9 />} />
       </Routes>
     </Router>
   );
