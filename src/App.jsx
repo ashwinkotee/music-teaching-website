@@ -13,7 +13,7 @@ import FacebookPixel from "./components/FacebookPixel";
 import WorkshopsPage from "./pages/WorkshopsPage";
 import Navbar from "./components/Navbar";
 import PianoBasicsWorkshop from "./pages/workshops/PIanoBasicsWorkshop";
-import Aug8and9 from "./pages/workshops/aug8and9";
+import Aug8and9 from "./pages/workshops/Aug8and9";
 
 function App() {
   const ScrollToHash = () => {
