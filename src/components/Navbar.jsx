@@ -20,13 +20,21 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </div>
 
-        {/* Book Trial Button */}
-        <a
-          href="#contact"
-          className="hidden md:inline-block bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition"
-        >
-          Book a Free Trial
-        </a>
+        {/* CTAs (Desktop) */}
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="https://portal.ashwinmusic.com/login"
+            className="inline-block border border-indigo-600 text-indigo-600 px-4 py-2 rounded-md hover:bg-indigo-50 transition font-medium"
+          >
+            Login
+          </a>
+          <a
+            href="#contact"
+            className="inline-block bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition font-medium"
+          >
+            Book a Free Trial
+          </a>
+        </div>
 
         {/* Hamburger Icon (Mobile Only) */}
         <button
@@ -75,8 +83,15 @@ const Navbar = () => {
               Contact
             </a>
             <a
+              href="https://portal.ashwinmusic.com/login"
+              className="mt-2 border border-indigo-600 text-indigo-600 px-4 py-2 rounded-md hover:bg-indigo-50 transition"
+              onClick={toggleMenu}
+            >
+              Login
+            </a>
+            <a
               href="#contact"
-              className="mt-2 bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition"
+              className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition"
               onClick={toggleMenu}
             >
               Book a Free Trial
