@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import KidsPiano from "./pages/KidsPiano";
 import Home from "./pages/Home";
 import IntroductoryPianoCourse from "./pages/IntroductoryPianoCourse";
 import PianoTheoryProgram from "./pages/PianoTheoryProgram";
@@ -9,7 +8,7 @@ import AboutMePage from "./pages/AboutMePage";
 import ScrollToTop from "./components/ScrollToTop";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import FacebookPixel from "./components/FacebookPixel";
+import MetaPixel from "./components/MetaPixel";
 import WorkshopsPage from "./pages/WorkshopsPage";
 import Navbar from "./components/Navbar";
 import PianoBasicsWorkshop from "./pages/workshops/PIanoBasicsWorkshop";
@@ -37,14 +36,13 @@ function App() {
     <Router>
       <ScrollToTop />
       <ScrollToHash />
-      <FacebookPixel />
+      <MetaPixel />
 
       {/* ✅ Add the Navbar before Routes */}
       <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/kids-piano" element={<KidsPiano />} />
         <Route
           path="/Introductory-piano-course"
           element={<IntroductoryPianoCourse />}

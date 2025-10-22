@@ -12,7 +12,6 @@ const Navbar = () => {
         {/* Centered Nav Items for Desktop */}
         <div className="hidden md:flex justify-center space-x-6 text-gray-800 font-medium flex-1">
           <Link to="/">Home</Link>
-          <Link to="/kids-piano">Kids Piano</Link>
           <Link to="/piano-theory-course">Piano & Theory</Link>
           <Link to="/songwriting-class">Songwriting</Link>
           <Link to="/workshops">Workshops</Link>
@@ -63,9 +62,6 @@ const Navbar = () => {
           <div className="flex flex-col space-y-3 text-gray-800 font-medium">
             <Link to="/" onClick={toggleMenu}>
               Home
-            </Link>
-            <Link to="/kids-piano" onClick={toggleMenu}>
-              Kids Piano
             </Link>
             <Link to="/piano-theory-course" onClick={toggleMenu}>
               Piano & Theory

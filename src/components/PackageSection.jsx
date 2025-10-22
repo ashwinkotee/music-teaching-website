@@ -10,28 +10,7 @@ const PackagesSection = () => {
         <h2 className="text-3xl font-bold text-center text-white mb-12">
           Piano & Music Theory Lessons
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Kids Music Class */}
-          <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg flex flex-col">
-            <h3 className="text-2xl font-semibold mb-2">Kids Music Class</h3>
-            <p className="mb-4">
-              A playful and interactive introduction to music for young
-              children.
-            </p>
-            <ul className="list-disc list-inside space-y-1 text-sm mb-6">
-              <li>Ages 3 – 5</li>
-              <li>45-minute group classes</li>
-              <li>4 sessions per month</li>
-              <li>Small groups (3 – 5 kids)</li>
-              <li>Foundational skills through fun and movement</li>
-            </ul>
-            <Link to="/kids-piano">
-              <button className="mt-auto bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded shadow transition">
-                Enroll Now
-              </button>
-            </Link>
-          </div>
-
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Piano & Theory Accordion Card */}
           <div className="bg-gray-800 text-white p-6 rounded-lg shadow-lg flex flex-col">
             <h3 className="text-2xl font-semibold mb-2">
@@ -72,7 +51,7 @@ const PackagesSection = () => {
                   <li>Ages 5+</li>
                   <li>4 group classes per month</li>
                   <li>1-hour sessions</li>
-                  <li>4–5 students per group</li>
+                  <li>4-5 students per group</li>
                   <li>Interactive practical + theory sessions</li>
                 </>
               ) : (

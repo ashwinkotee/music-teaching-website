@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="w-full px-6 pt-20 pb-60 flex justify-start">
         <div className="max-w-7xl w-full mx-auto">
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">
-            Learn music with Ashwin
+            Ashwin's Piano Studio
           </h1>
           <p className="text-white text-xl md:text-2xl mb-4">
             Online & In-Person

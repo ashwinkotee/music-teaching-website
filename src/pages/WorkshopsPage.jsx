@@ -9,7 +9,7 @@ const workshops = [
     summary:
       "Perfect for absolute beginners. Learn finger placement, posture, and basic melodies.",
     image: "/aug8&9.png",
-    status: "active",
+    status: "completed",
   },
   {
     title: "2-Day Piano Basics Workshop",

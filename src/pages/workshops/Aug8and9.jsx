@@ -50,8 +50,8 @@ const Aug8and9 = () => {
                 <strong>Timings:</strong>
                 <ul className="list-disc pl-6 mt-2 space-y-2">
                   <li>
-                    <span className="font-semibold text-green-400">
-                      Batch 1 (OPEN)
+                    <span className="font-semibold text-red-400">
+                      Batch 1 (CLOSED)
                     </span>{" "}
                     <br />
                     August 8 (Saturday): 10:00 AM – 11:00 AM <br />
