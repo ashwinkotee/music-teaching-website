@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import IntroductoryPianoCourse from "./pages/IntroductoryPianoCourse";
@@ -13,6 +13,7 @@ import WorkshopsPage from "./pages/WorkshopsPage";
 import Navbar from "./components/Navbar";
 import PianoBasicsWorkshop from "./pages/workshops/PIanoBasicsWorkshop";
 import Aug8and9 from "./pages/workshops/Aug8and9";
+import ExternalRedirect from "./components/ExternalRedirect";
 
 function App() {
   const ScrollToHash = () => {
@@ -56,6 +57,13 @@ function App() {
           element={<PianoBasicsWorkshop />}
         />
         <Route path="/workshops/Aug8and9" element={<Aug8and9 />} />
+        <Route
+          path="/login"
+          element={
+            <ExternalRedirect to="https://portal.ashwinmusic.com/login" />
+          }
+        />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Router>
   );
